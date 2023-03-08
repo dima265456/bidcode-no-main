@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcode</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+
+<!--
+
+        альт 
+        переименовать картинки
+
+        скроллы
+
+
+      поставить фавикон
+      проверить можно ли сделать отступы меньше 100 на 320
+-->
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <ul class="menu__items">
+                    <li class="menu__item">
+                        <a class="menu__link menu__link--active" href="#services">
+                            Послуги
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#about">
+                            Про нас
+                        </a>
+                    </li>
+                </ul>
+                <a class="menu__link-logo" href="#">
+                    <img class="menu__logo logo" src="images/logo.png" alt="Лого">
+                </a>
+                <ul class="menu__items">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#partners">
+                            Партнери
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contacts">
+                            Контакти
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu__mobile">
+                    <li class="menu__item">
+                        <a class="menu__link menu__link--active" href="#services">
+                            Послуги
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#about">
+                            Про нас
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#partners">
+                            Партнери
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contacts">
+                            Контакти
+                        </a>
+                    </li>
+                </ul>
+                <button class="menu__btn" type="button">
+                    <span></span>
+                    <span class="sr-only">open menu</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="intro">
+            <div class="container">
+                <h1 class="sr-only">
+                    Сайт надання IT-послуг
+                </h1>
+                <div class="intro__wrapper">
+                    <div class="intro__box">
+                        <h2 class="sr-only">
+                            Секція знайомства з сайтом
+                        </h2>
+                        <div class="intro__text">
+                            <p>
+                                BITCODE – сьогодні ми дбаємо про Ваше «завтра»
+                            </p>
+                        </div>
+                        <a class="intro__link btn" href="#">
+                            Залишити заявку
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer section section--bem">
+            <div class="container">
+                <h2 class="offer__title title title--bem">
+                    ми пропонуємо
+                </h2>
+                <ul class="offer__wrapper">
+                    <li class="offer__item offer__item--1" id="item">
+                        <div class="offer__box">
+                            <div class="offer__images">
+                                <img class="offer__img" src="images/services-for-enterprises.jpg"
+                                    alt="послуги для підприємств">
+                            </div>
+                            <div class="offer__subtitle">
+                                <p>
+                                    послуги для підприємств
+                                </p>
+                            </div>
+                        </div>
+                        <ul class="offer__items offer__items--1">
+                            <li>
+                                Технічна підтримка та IT-обслуговування.
+                            </li>
+                            <li>
+                                Файлові сервери
+                            </li>
+                            <li>
+                                Мережеве обладнання.
+                            </li>
+                            <li>
+                                Створення та обслуговування корпоративної пошти.
+                            </li>
+                            <li>
+                                Ремонт серверів, офісної техніки.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="offer__item offer__item--2">
+                        <div class="offer__box">
+                            <div class="offer__images">
+                                <img class="offer__img" src="images/services-for-business.jpg"
+                                    alt="послуги для бізнесу (B2B)">
+                            </div>
+                            <div class="offer__subtitle">
+                                <p>послуги для бізнесу (B2B)</p>
+                            </div>
+                        </div>
+                        <ul class="offer__items offer__items--2">
+                            <li>
+                                Розробка програмного забезпечення.
+                            </li>
+                            <li>
+                                Комплексна розробка веб-додатків і створення софту будь-якої складності.
+                            </li>
+                            <li>
+                                Навчання та тренінги для персоналу, який користуватиметься продуктами.
+                            </li>
+                            <li>
+                                Створення та обслуговування корпоративної пошти.
+                            </li>
+                            <li>
+                                Хмарний консалтинг.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="offer__item offer__item--3">
+                        <div class="offer__box">
+                            <div class="offer__images">
+                                <img class="offer__img" src="images/consultation.jpg" alt="консультація">
+                            </div>
+                            <div class="offer__subtitle">
+                                <p>консультація</p>
+                            </div>
+                        </div>
+                        <ul class="offer__items offer__items--3">
+                            <li>
+                                Повна бізнес-аналітика чинних процесів компанії.
+                            </li>
+                            <li>
+                                Виявлення ключових показників ефективності, практичні рекомендації щодо
+                                оптимізації, масштабування та систематизації.
+                            </li>
+                            <li>
+                                Оцінка безпеки та виявлення ризиків.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="services section--bem" id="services">
+            <div class="container">
+                <h2 class="services__title title title--bem">
+                    Послуги
+                </h2>
+                <ul class="services__items">
+                    <li class="services__item">
+                        <div class="services__inner">
+                            <div class="services__info">
+                                <p>it</p>
+                                <p>аутсорсинг</p>
+                            </div>
+                            <div class="services__box">
+                                <div class="services__images">
+                                    <img class="services__img" src="images/1.jpg" alt="1-ipad">
+                                    <div class="services__text">
+                                        <p>
+                                            IT аутсорсинг – це порівняно молода гілка бізнес-послуг на теренах нашої
+                                            країни.
+                                            Діяльність
+                                            компаній, які пропонують послуги IT аутсорсингу, поширюється переважно на
+                                            автономне
+                                            обслуговування комп'ютерів клієнта. Наприклад, якщо вам економічно невигідно
+                                            утримувати
+                                            в
+                                            штаті системного адміністратора, то ви спокійно можете укласти клієнтську
+                                            угоду
+                                            з
+                                            компанією
+                                            аутсорсерів і отримати тим самим постійне професійне обслуговування та
+                                            налаштування
+                                            ваших
+                                            комп'ютерів.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__inner mirror">
+                            <div class="services__info">
+                                <p>Розробка</p>
+                                <p>ПЗ</p>
+                            </div>
+                            <div class="services__box">
+                                <div class="services__images">
+                                    <img class="services__img" src="images/0.jpg" alt="1-ipad">
+                                    <div class="services__text">
+                                        <p>
+                                            Ми пропонуємо повний цикл розробки програмного забезпечення, починаючи з
+                                            визначення вимог до продукту спільно із замовником та розробки технічного
+                                            завдання та закінчуючи впровадженням бізнес-додатків. Кожне рішення
+                                            супроводжується технічним описом та інструкцією для користувачів.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__inner ">
+                            <div class="services__info">
+                                <p>IP</p>
+                                <p>телефонія</p>
+                            </div>
+                            <div class="services__box">
+                                <div class="services__images">
+                                    <img class="services__img" src="images/3.jpg" alt="1-ipad">
+                                    <div class="services__text">
+                                        <p>
+                                            P-телефонією називають голосовий зв'язок, який здійснюється за мережами,
+                                            призначеними для передачі даних, частіше — по IP-мережах (термін IP
+                                            розшифровується як «Internet Protocol»). В даний час зв'язок з використанням
+                                            IP-телефонії стала витісняти традиційні мережі телефонного зв'язку завдяки
+                                            своїй
+                                            низькій вартості дзвінків, легкості розгортання, високої якості з'єднання та
+                                            зв'язку, їхній порівняльній безпеці, простоті конфігурування.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__inner mirror">
+                            <div class="services__info">
+                                <p>web</p>
+                                <p>дизайн</p>
+                            </div>
+                            <div class="services__box">
+                                <div class="services__images">
+                                    <img class="services__img" src="images/4.jpg" alt="1-ipad">
+                                    <div class="services__text">
+                                        <p>
+                                            У нашій компанії ми розробляємо сайти, які дають прибуток. Великий досвід
+                                            роботи
+                                            дозволяє нам надавати послуги високої якості в галузі створення веб-дизайну
+                                            сайту. Всі створені нами ресурси зручні, оригінальні та мають привабливий
+                                            вигляд. А головне, розроблені нашою компанією сайти виконують функцію
+                                            інструменту продажу, дозволяючи розширювати коло потенційних клієнтів, тим
+                                            самим
+                                            збільшуючи прибуток вашої компанії.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__inner">
+                            <div class="services__info">
+                                <p>відновлення</p>
+                                <p>даних</p>
+                            </div>
+                            <div class="services__box">
+                                <div class="services__images">
+                                    <img class="services__img" src="images/5.jpg" alt="1-ipad">
+                                    <div class="services__text">
+                                        <p>
+                                            Втрата важливої інформації та її недоступність через цифрові носії можуть
+                                            бути
+                                            як випадковістю - результатом поломки, шлюбу, некоректного поводження, так і
+                                            навмисним кроком з боку зловмисників з метою «стерти» невигідні їм
+                                            дані чи «цифрові» докази злочину. В обох випадках організації,
+                                            що зіткнулася з проблемою відновлення даних, необхідне її оперативне та
+                                            надійне рішення.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__inner mirror">
+                            <div class="services__info">
+                                <p>выделение</p>
+                                <p>сервера</p>
+                            </div>
+                            <div class="services__box">
+                                <div class="services__images">
+                                    <img class="services__img" src="images/6.jpg" alt="1-ipad">
+                                    <div class="services__text">
+                                        <p>
+                                            Головне завдання виділеного сервера – забезпечення повного доступу до
+                                            програмного та апаратного забезпечення. Користувач може проводити будь-які
+                                            технічні роботи на сервері і це не завадить функціонуванню основних служб.
+                                            Також
+                                            його використовують для забезпечення мережевої безпеки. Ще одне завдання
+                                            виділеного сервера – забезпечення безперебійного доступу до бази даних
+                                            компанії.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="advantages section section--bem">
+            <div class="container">
+                <div class="advantages__wrapper">
+                    <picture class="advantages__picture">
+                        <source srcset="images/advantages-mobile.jpg" media="(max-width: 768px)">
+                        <img class="advantages__img" src="images/advantages.jpg" alt="переваги">
+                    </picture>
+                    <div class="advantages__box">
+                        <h2 class="advantages__title title title--bem">
+                            наші переваги
+                        </h2>
+                        <ul class="advantages__items">
+                            <li class="advantages__item">
+                                <h3 class="advantages__subtitle">
+                                    Швидкість
+                                </h3>
+                                <div class="advantages__text">
+                                    <p>
+                                        Ми робимо все у найкоротший термін, готові працювати в екстрених ситуаціях. У
+                                        нашій
+                                        компанії час – найбільша валюта.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="advantages__item">
+                                <h3 class="advantages__subtitle">
+                                    Надежность
+                                </h3>
+                                <div class="advantages__text">
+                                    <p>
+                                        Вже 7 років ми займаємо лідируючі позиції у цій ніші. У нашій компанії не
+                                        відбувається
+                                        випадкових ситуацій та несподіванок. Ми - команда професіоналів із великим
+                                        досвідом,
+                                        на
+                                        яку можна і варто покластися на нас, варто покластися.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="advantages__item">
+                                <h3 class="advantages__subtitle">
+                                    Новаторство
+                                </h3>
+                                <div class="advantages__text">
+                                    <p>
+                                        «Хто не встиг, той запізнився», — у 21 столітті ця фраза звучить дуже актуально,
+                                        якщо
+                                        врахувати,
+                                        що нове з'являється кожен день, кожну годину, кожну хвилину, навіть зараз. Наша
+                                        компанія
+                                        завжди стежить за інноваціями та змінами на ринку, тому наші клієнти
+                                        отримують
+                                        тільки найкращі рішення.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="statistics section section--bem">
+            <div class="container">
+                <ul class="statistics__wrapper">
+                    <li class="statistics__item">
+                        <div class="statistics__number">9</div>
+                        <h2 class="statistics__title">
+                            років на ринку
+                        </h2>
+                    </li>
+                    <li class="statistics__item">
+                        <div class="statistics__number">32</div>
+                        <h2 class="statistics__title">
+                            офісів по світу
+                        </h2>
+                    </li>
+                    <li class="statistics__item">
+                        <div class="statistics__number">110</div>
+                        <h2 class="statistics__title">
+                            наданих послуг
+                        </h2>
+                    </li>
+                    <li class="statistics__item">
+                        <div class="statistics__number">90+</div>
+                        <h2 class="statistics__title">
+                            постоянних членів клубу
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about section section--bem" id="about">
+            <div class="container">
+                <h2 class="about__title title title--bem">
+                    про нас
+                </h2>
+                <div class="about__inner">
+                    <div class="about__box">
+                        <div class="about__subtitle">
+                            BITCODE приветствует Вас!
+                        </div>
+                        <div class="about__text">
+                            <p>
+                                Компанія «Біткод» вийшла на ринок інформаційних технологій (ІТ) у 2015 році. Перед
+                                співробітниками компанії стояло завдання не лише утриматися в конкурентному середовищі,
+                                а й розвивати нові напрями для надання схеми обслуговування «Все з одних рук». Наш
+                                сервіс максимально адаптований для компаній малого та середнього бізнесу, включаючи
+                                специфіку процесів та цінову політику.
+                            <p>
+                                Ми пишаємось тим, що багато наших корпоративних клієнтів протягом багатьох років
+                                співпраці розвиваються з нами. Ми раді, що нам вдалося допомогти їм оптимізувати бізнес
+                                -процеси, відповідати сучасним економічним проблемам та бути успішними на ринку.
+                                Протягом багатьох років була сформована стратегія компанії, що дало змогу надійно
+                                закріпити на ІТ -ринку.
+                            </p>
+                            <p>
+                                Сьогодні ми готові запропонувати своїм клієнтам надійний та якісний сервіс,
+                                висококваліфікований персонал та розвинену систему технічної підтримки з мінімальним
+                                часом реагування.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture class="swiper__picture">
+                                    <source srcset="images/slider/slide_1-mini.jpg" media="(max-width: 992px)">
+                                    <source srcset="images/slider/slide-1.jpg" media="(max-width: 550px)">
+                                    <img class="swiper__img" src="images/slider/slide-1.jpg" alt="">
+                                    <!-- !!!! -->
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="swiper__picture">
+                                    <source srcset="images/slider/slide_2-mini.jpg" media="(max-width: 992px)">
+                                    <img class="swiper__img" src="images/slider/slide-2.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="swiper__picture">
+                                    <source srcset="images/slider/slide_3-mini.jpg" media="(max-width: 992px)">
+                                    <img class="swiper__img" src="images/slider/slide-3.jpg" alt="">
+                                </picture>
+                            </div>
+                            <!-- заполнить альт -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners section section--bem" id="partners">
+            <div class="container">
+                <h2 class="partners__title title title--bem">
+                    наші партнери
+                </h2>
+                <div class="partners__text">
+                    <p>
+                        Компанія "БІТКОД" співпрацює з представниками різних сфер бізнесу. Гнучкість наших фахівців
+                        дозволяє нам бути корисними для будь-якої галузі. Починаючи працювати з компанією, ми перестаємо
+                        бути для них партнерами, ми стаємо невід'ємною частиною їхнього бізнесу.
+                    </p>
+                </div>
+                <!-- альт на укр -->
+                <ul class="partners__wrapper">
+                    <li class="partners__item">
+                        <img src="images/partners/forbes.png" alt="forbes">
+                    </li>
+                    <li class="partners__item">
+                        <img src="images/partners/radisson.png" alt="radisson">
+                    </li>
+                    <li class="partners__item">
+                        <img src="images/partners/vogue.png" alt="vogue">
+                    </li>
+                    <li class="partners__item">
+                        <img src="images/partners/premier.png" alt="premier">
+                    </li>
+                    <li class="partners__item">
+                        <img src="images/partners/fairmont.png" alt="fairmont">
+                    </li>
+                    <li class="partners__item">
+                        <img src="images/partners/fujiwara_yoshi.png" alt="fujiwara_yoshi">
+                    </li>
+                    <li class="partners__item">
+                        <img src="images/partners/intercontinental.png" alt="intercontinental">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <h2 class="contacts__title title title--bem">
+                Залишити заявку
+            </h2>
+            <form class="form">
+                <div class="form__wrapper">
+                    <label class="sr-only" for="name-input">
+                        Введіть ваше ім'я
+                    </label>
+                    <input class="form__input" id="name-input" type="text" name="name" placeholder="Ім'я" required
+                        oninvalid="this.setCustomValidity('заповніть це поле!')">
+                    <label class="sr-only" for="surname-input">
+                        Введіть ваше Прізвище
+                    </label>
+                    <input class="form__input" id="surname-input" type="text" name="surname" placeholder="Прізвище"
+                        required oninvalid="this.setCustomValidity('заповніть це поле!')">
+                </div>
+                <label class="sr-only" for="email-input">
+                    Введіть вашу пошту
+                </label>
+                <input class="form__email" id="email-input" type="email" name="email" placeholder="Введіть вашу пошту"
+                    required oninvalid="this.setCustomValidity('заповніть це поле!')">
+                <label class="sr-only" for="tel-input">
+                    Введіть номер телефону
+                </label>
+                <input class="form__tel" id="tel-input" type="tel" name="tel" placeholder="Введіть номер телефону"
+                    required oninvalid="this.setCustomValidity('заповніть це поле!')">
+                <textarea class="form__message" id="message" name="message" placeholder="Повідомлення"></textarea>
+                <button class="form__btn btn" type="submit">
+                    Надіслати
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__title title title--bem">
+                    <!-- придумать название получше -->
+                    Контакти
+                </div>
+                <div class="footer__inner">
+                    <a class=" footer__link-logo footer__link--indent" href="#">
+                        <img class="footer__logo logo" src="images/logo.png" alt="Лого">
+                    </a>
+                    <a class="footer__link footer__link--indent" href="mailto:manager@bitcode.kiev.ua">
+                        manager@bitcode.kiev.ua
+                    </a>
+                    <a class="footer__link footer__link--indent" href="tel:+380681152961">
+                        38 (068) 115-29-61
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
